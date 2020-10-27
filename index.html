@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Post-crisis Hope Radio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!--<link rel="shortcut icon" href="assets/images/favicon_1x.ico" type="image/x-icon">--> <!--TODO - uncomment!-->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>-->
+    <script src="assets/script/jquery-3.5.1.js"></script>
+    <script src="assets/script/jquery.collapser.min.js"></script>
+    <script src="https://use.fontawesome.com/f91d80e6ad.js"></script>
+    <script src="assets/script/masonry.pkgd.min.js"></script>
+    <script src="assets/script/main_script.js"></script>
+    <!--<script>
+        $(function () {
+
+            $('.tiles__item .tiles__item__text').collapser({
+                mode: 'lines',
+                truncate: 5,
+                showText: 'Read more( %s )',
+                afterHide: function (q) {
+                    q.o.showText = 'Read more( ' + q.remaining + ' lines )';
+                }
+            });
+
+        });
+
+    </script>-->
+
+</head>
+<body>
+    <header class="header">
+        <div class="log-in">
+            <a class="log-in__link" href="#">Log in</a>
+        </div>
+        
+        <form class="search">
+            <input class="search__text" type="text" name="q" placeholder="text" />
+            <button class="search__button" type="submit"></button>
+        </form>
+        <ul class="lang-switch">
+            <li class="lang-switch__item active">EN</li>
+            <li class="lang-switch__item">RU</li>
+
+        </ul>
+    </header> <!--header-->
+
+    <nav class="menu">
+        <ul class="menu-bar">
+            <li class="menu-bar__item"><a href="#">Home</a></li>
+            <li class="menu-bar__item"><a href="#">About us</a></li>
+            <li class="menu-bar__item"><a href="#">Broadcast</a></li>
+            <li class="menu-bar__item"><a href="#">Programmes</a></li>
+            <li class="menu-bar__item"><a href="#">Other</a></li>
+        </ul>
+        <div class="menu-bar--mobile" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="site-title">
+        <img src="assets/images/1906_tree_dark_v2.gif" alt="Logo: Growing Tree in Flame" class="site-title__logo" />
+        <h1 class="site-title__text">
+            Post-crisis Hope Radio
+        </h1>
+    </div> <!-- site-title -->
+    
+   
+    <section class="content">
+        <div class="content__header">
+            <h2 class="content__header__text">Our broadcast in English</h2>
+        </div>
+        <div class="tiles"
+             data-masonry='{ "itemSelector": ".tiles__item", "columnWidth": ".tiles__sizer", "gutter": ".tiles__gutter", "percentPosition": true }'>
+
+            <div class="tiles__sizer"></div>
+            <div class="tiles__gutter"></div>
+            
+            <!--Template -->
+            <div class="tiles__item">
+
+                <img src="assets/covers/Grounding/1/85517298_27689767398.jpg"
+                     alt="Episode cover"
+                     class="tiles__item__cover" />
+
+                <div class="tiles__item__header">
+                    <h4 class="tiles__item__header_prg">Grounding Programme</h4>
+
+                    <h3 class="tiles__item__header_auth">Preeti Chopra</h3>
+                </div>
+                <div class="tiles__item__meta">
+                    <p>release date 01/01/2020</p>
+                </div>
+
+                <div class="tiles__item__text">
+
+                    <p>
+                        Preeti Chopra (India / USA / the Netherlands) is a professor of Architecture,
+                        Urban History and Visual Studies in the University of Wisconsin-Madison.
+                        She lived and did research in Pondichéry, Auroville, so-called 'city of the future' in India.
+                        Preeti was born in the family of refugees forced to migrate as the result of the Partition.
+                        With her we will explore what it means to be disconnected from the land or the earth of one's origin.
+                        From the article of Preeti:
+                    </p>
+                    <p>
+                        "I never know what to say when people ask me where I am from. Surely,
+                        it would have been easier to simply say that I was from Delhi, a city remade after 1947 by Punjabi refugees.
+                        I always knew that I was forged by the Particion and the fact that my ancestral homeland lay across the border.
+                        That world was lost forever even for those who could cross the border or stayed behind."
+                    </p>
+                    <p>
+                        "I never know what to say when people ask me where I am from. Surely, it would have been easier to simply say
+                        that I was from Delhi, a city remade after 1947 by Punjabi refugees. I always knew that I was forged by the
+                        Particion and the fact that my ancestral homeland lay across the border.
+                        That world was lost forever even for those who could cross the border or stayed behind."
+                    </p>
+
+                </div> <!--tiles__item__text-->
+
+                <div class="tiles__item__links">
+                    <a class="tiles__item__links_episode" href="#">Listen</a>
+                    <a class="tiles__item__links_episode" href="#">Read more</a>
+                    <a class="tiles__item__links_add" href="#">Articles of Preeti Chopra</a>
+                </div>
+            </div> <!--tiles item-->
+            <!--Template end-->
+
+            <div class="tiles__item">
+
+                <img src="assets/covers/Grounding/2/photo_2020-06-30_16-.jpg"
+                     alt="Episode cover"
+                     class="tiles__item__cover" />
+
+                <div class="tiles__item__header">
+                    <h4 class="tiles__item__header_prg">Grounding Programme</h4>
+                    <h3 class="tiles__item__header_auth">Nelson Carrilho</h3>
+                </div>
+
+                <div class="tiles__item__meta">
+                    <p>release date 02/02/2020</p>
+                </div>
+
+                <div class="tiles__item__text">
+                    <p>
+                        Nelson Carrilho (Curaçao / the Netherlands) and Elvira Semmho (Suriname / the Netherlands)
+                        are a sculptor and a storyteller. Nelson is a creator of the sculpture Mama Baranka (Mother Earth)
+                        in Amsterdam, placed in the memory of Kerwin Duinmeijer, a 15-year-old Antillean who was killed
+                        for the fact that he was black. Elvira collaborates with Nelson to give the voice to the sculpture.
+                        With Nelson and Elvira we explore the Earth as a feminine energy, the position of this energy
+                        in contemporary Western society and the links of this position with the privileges of color.
+                    </p>
+
+                </div>
+
+                <div class="tiles__item__links">
+                    <a class="tiles__item__links_episode" href="#">Listen</a>
+                    <a class="tiles__item__links_episode" href="#">Read more</a>
+                    <a class="tiles__item__links_add" href="#">More information about Mama Baranka in Dutch</a>
+                </div>
+
+            </div> <!--tiles item-->
+
+            <div class="tiles__item">
+
+                <img src="assets/covers/Grounding/3/PCROZES-SexTalk-Porn.jpg"
+                     alt="Episode cover"
+                     class="tiles__item__cover" />
+
+                <div class="tiles__item__header">
+                    <h4 class="tiles__item__header_prg">Grounding Programme</h4>
+
+                    <h3 class="tiles__item__header_auth">Jul</h3>
+                </div>
+
+                <div class="tiles__item__meta">
+                    <p>release date 03/03/2020</p>
+                    <p>Cover photo by P Crozes</p>
+                </div>
+
+                <div class="tiles__item__text">
+                    <p>
+                        Juls (France / the Netherlands) sx worker, sx workers' and queer rights activist, former member
+                        of an ecovillage in Switzerland, co-organizer of a people of color centered sex positive festival
+                        in Amsterdam. With Juls we will explore intersectionality of environmental movement with the sx work
+                        and queer activism. How are the connection with our bodies and desires linked to the connection
+                        with Earth? Is sexuality sacred? Can sx work be a healing practice? We will touch upon dirty
+                        connotations connected to sexuality in the contemporary world, making a parallel with the
+                        association of Dirt with Earth in English language, which is as well embraced in Western society.
+                        We will explore how those connotations serve the hierarchical societal systems of control,
+                        and how those systems are being reproduced.
+                    </p>
+
+                </div>
+
+                <div class="tiles__item__links">
+                    <a class="tiles__item__links_episode" href="#">Listen</a>
+                    <a class="tiles__item__links_episode" href="#">Read more</a>
+
+                </div>
+            </div> <!--tiles item-->
+
+            <div class="tiles__item">
+
+                <img src="assets/covers/Grounding/4/ким чен нам.jpg"
+                     alt="Episode cover"
+                     class="tiles__item__cover" />
+
+                <div class="tiles__item__header">
+                    <h4 class="tiles__item__header_prg">New Career</h4>
+                    <h3 class="tiles__item__header_auth">Kim Chen Nam</h3>
+                </div>
+
+                <div class="tiles__item__meta">
+                    <p>release date 12/12/2020</p>
+                    <p>Cover photo by JJ Button</p>
+                </div>
+
+                <div class="tiles__item__text">
+                    <p>
+                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod,
+                        iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                        Placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor
+                        mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante.
+                    </p>
+                    <p>
+                        Fusce non varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin
+                        lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl, sollicitudin
+                        interdum turpis nunc eget.
+                    </p>
+
+
+                </div>
+
+                
+
+                <div class="tiles__item__links">
+                    <a class="tiles__item__links_episode" href="#">Listen</a>
+                    <a class="tiles__item__links_episode" href="#">Read more</a>
+                    <a class="tiles__item__links_add" href="#">Eros purus vulputate leo</a>
+
+                </div>
+            </div> <!--tiles item-->
+
+        </div> <!--tiles-->
+    </section>
+</body>
+</html>
